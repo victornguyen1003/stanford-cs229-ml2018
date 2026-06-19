@@ -1,1 +1,1 @@
-# Stanford CS229 Machine Learning Autumn 2018
+# Stanford CS229 Machine Learning 2018
