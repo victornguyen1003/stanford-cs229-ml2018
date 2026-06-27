@@ -1,10 +1,10 @@
-import numpy as np
+import numpy as np # type: ignore
 from typing import Optional
 
 class LinearModel:
     """Base class for linear models."""
 
-    def __init__(self, step_size: float = 0.2, max_iter: int = 100, eps: float = 1e-5, theta_0: Optional[np.ndarray] = None, verbose: bool = True):
+    def __init__(self, step_size: float = 0.2, max_iter: int = 100, eps: float = 1e-5, theta_0: Optional[np.ndarray] = None, verbose: bool = False):
         """
         Args:
             step_size: Step size for iterative solvers only.

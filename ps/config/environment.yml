@@ -6,6 +6,7 @@ dependencies:
   - python>=3.11
   - matplotlib>=3.8
   - numpy>=1.26
+  - ipykernel
   - pip>=24.0
   - scipy>=1.12
   - typst
